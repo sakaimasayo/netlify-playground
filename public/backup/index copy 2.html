@@ -26,47 +26,18 @@
     <title>きままなページ</title>
 
     <script>
-        let randomNumber;
+
         function onInit() {
-            this.randomNumber = Math.floor(Math.random() * 7);
-            console.log(this.randomNumber);
+
         }
 
         function setTwitterUrl() {
-            const params = new URLSearchParams({
-                id: '123',
-                name: 'John Doe',
-                occupation: 'Developer'
-            });
 
-            const urlString = `https://example.com/profile?${params.toString()}`;
-            console.log(urlString);
-            location.href = urlString;
         }
 
-        function setFacebookUrl() {
-            const params = new URLSearchParams({
-                id: '123',
-                name: 'John Doe',
-                occupation: 'Developer'
-            });
+        function setTwitterUrl() {
 
-            const urlString = `https://example.com/profile?${params.toString()}`;
-            console.log(urlString);
-            location.href = urlString;
-        }
-
-        function setLineUrl() {
-            const params = new URLSearchParams({
-                id: '123',
-                name: 'John Doe',
-                occupation: 'Developer'
-            });
-
-            const urlString = `https://example.com/profile?${params.toString()}`;
-            console.log(urlString);
-            location.href = urlString;
-        }
+            }
     </script>
 
 </head>
